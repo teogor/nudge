@@ -1,0 +1,96 @@
+public final class dev/teogor/nudge/demo/AnimationType : java/lang/Enum {
+	public static final field BOUNCE Ldev/teogor/nudge/demo/AnimationType;
+	public static final field FADE Ldev/teogor/nudge/demo/AnimationType;
+	public static final field FLIP Ldev/teogor/nudge/demo/AnimationType;
+	public static final field SLIDE Ldev/teogor/nudge/demo/AnimationType;
+	public static final field ZOOM Ldev/teogor/nudge/demo/AnimationType;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Ldev/teogor/nudge/demo/AnimationType;
+	public static fun values ()[Ldev/teogor/nudge/demo/AnimationType;
+}
+
+public final class dev/teogor/nudge/demo/AnimationTypeKt {
+	public static final fun toAnimation (Ldev/teogor/nudge/demo/AnimationType;)Ldev/teogor/nudge/Animation;
+	public static final fun toAnimationType (Ldev/teogor/nudge/Animation;)Ldev/teogor/nudge/demo/AnimationType;
+}
+
+public final class dev/teogor/nudge/demo/AppKt {
+	public static final fun App (Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class dev/teogor/nudge/demo/ComposableSingletons$AppKt {
+	public static final field INSTANCE Ldev/teogor/nudge/demo/ComposableSingletons$AppKt;
+	public static field lambda-1 Lkotlin/jvm/functions/Function2;
+	public static field lambda-2 Lkotlin/jvm/functions/Function2;
+	public fun <init> ()V
+	public final fun getLambda-1$composeApp ()Lkotlin/jvm/functions/Function2;
+	public final fun getLambda-2$composeApp ()Lkotlin/jvm/functions/Function2;
+}
+
+public final class dev/teogor/nudge/demo/ComposableSingletons$DemoScreenKt {
+	public static final field INSTANCE Ldev/teogor/nudge/demo/ComposableSingletons$DemoScreenKt;
+	public static field lambda-1 Lkotlin/jvm/functions/Function3;
+	public static field lambda-2 Lkotlin/jvm/functions/Function3;
+	public static field lambda-3 Lkotlin/jvm/functions/Function3;
+	public static field lambda-4 Lkotlin/jvm/functions/Function3;
+	public static field lambda-5 Lkotlin/jvm/functions/Function3;
+	public static field lambda-6 Lkotlin/jvm/functions/Function4;
+	public static field lambda-7 Lkotlin/jvm/functions/Function3;
+	public static field lambda-8 Lkotlin/jvm/functions/Function3;
+	public fun <init> ()V
+	public final fun getLambda-1$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-2$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-3$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-4$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-5$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-6$composeApp ()Lkotlin/jvm/functions/Function4;
+	public final fun getLambda-7$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-8$composeApp ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class dev/teogor/nudge/demo/ComposableSingletons$IconGalleryLayoutKt {
+	public static final field INSTANCE Ldev/teogor/nudge/demo/ComposableSingletons$IconGalleryLayoutKt;
+	public static field lambda-1 Lkotlin/jvm/functions/Function3;
+	public fun <init> ()V
+	public final fun getLambda-1$composeApp ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class dev/teogor/nudge/demo/ComposableSingletons$MainKt {
+	public static final field INSTANCE Ldev/teogor/nudge/demo/ComposableSingletons$MainKt;
+	public static field lambda-1 Lkotlin/jvm/functions/Function3;
+	public static field lambda-2 Lkotlin/jvm/functions/Function3;
+	public fun <init> ()V
+	public final fun getLambda-1$composeApp ()Lkotlin/jvm/functions/Function3;
+	public final fun getLambda-2$composeApp ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class dev/teogor/nudge/demo/DemoScreenKt {
+	public static final fun DemoScreen (Ldev/teogor/nudge/NudgeState;Ldev/teogor/nudge/Placement;Lkotlin/jvm/functions/Function1;Ldev/teogor/nudge/Animation;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;I)V
+}
+
+public final class dev/teogor/nudge/demo/IconGalleryLayoutKt {
+	public static final fun iconGalleryLayout (Landroidx/compose/foundation/lazy/grid/LazyGridScope;Ldev/teogor/nudge/demo/IconGalleryViewModel;Ljava/util/List;)V
+}
+
+public final class dev/teogor/nudge/demo/IconGalleryViewModel : androidx/lifecycle/ViewModel {
+	public static final field $stable I
+	public fun <init> ()V
+	public final fun getIcons ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun getSelectedTab ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun onTabSelected (Ldev/teogor/nudge/demo/IconType;)V
+}
+
+public final class dev/teogor/nudge/demo/IconType : java/lang/Enum {
+	public static final field Filled Ldev/teogor/nudge/demo/IconType;
+	public static final field Outlined Ldev/teogor/nudge/demo/IconType;
+	public final fun getDisplayName ()Ljava/lang/String;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Ldev/teogor/nudge/demo/IconType;
+	public static fun values ()[Ldev/teogor/nudge/demo/IconType;
+}
+
+public final class dev/teogor/nudge/demo/MainKt {
+	public static final fun main ()V
+	public static synthetic fun main ([Ljava/lang/String;)V
+}
+

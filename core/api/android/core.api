@@ -1,0 +1,453 @@
+public abstract interface class dev/teogor/nudge/Animation {
+	public abstract fun flipEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public abstract fun flipExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public abstract fun flipIn ()Landroidx/compose/animation/EnterTransition;
+	public abstract fun flipOut ()Landroidx/compose/animation/ExitTransition;
+	public abstract fun getEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public abstract fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public abstract fun getExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public abstract fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public abstract fun getPaddingAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public abstract fun getScaleAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+}
+
+public final class dev/teogor/nudge/Animation$Bounce : dev/teogor/nudge/Animation {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Animation$Bounce;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun flipEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipIn ()Landroidx/compose/animation/EnterTransition;
+	public fun flipOut ()Landroidx/compose/animation/ExitTransition;
+	public fun getEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public fun getExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public fun getPaddingAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun getScaleAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Animation$DefaultImpls {
+	public static fun flipEnterAnimationSpec (Ldev/teogor/nudge/Animation;)Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public static fun flipExitAnimationSpec (Ldev/teogor/nudge/Animation;)Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public static fun flipIn (Ldev/teogor/nudge/Animation;)Landroidx/compose/animation/EnterTransition;
+	public static fun flipOut (Ldev/teogor/nudge/Animation;)Landroidx/compose/animation/ExitTransition;
+}
+
+public final class dev/teogor/nudge/Animation$Fade : dev/teogor/nudge/Animation {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Animation$Fade;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun flipEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipIn ()Landroidx/compose/animation/EnterTransition;
+	public fun flipOut ()Landroidx/compose/animation/ExitTransition;
+	public fun getEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public fun getExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public fun getPaddingAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun getScaleAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Animation$Flip : dev/teogor/nudge/Animation {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Animation$Flip;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun flipEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipIn ()Landroidx/compose/animation/EnterTransition;
+	public fun flipOut ()Landroidx/compose/animation/ExitTransition;
+	public fun getEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public fun getExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public fun getPaddingAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun getScaleAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Animation$Slide : dev/teogor/nudge/Animation {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Animation$Slide;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun flipEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipIn ()Landroidx/compose/animation/EnterTransition;
+	public fun flipOut ()Landroidx/compose/animation/ExitTransition;
+	public fun getEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public fun getExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public fun getPaddingAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun getScaleAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Animation$Zoom : dev/teogor/nudge/Animation {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Animation$Zoom;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun flipEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun flipIn ()Landroidx/compose/animation/EnterTransition;
+	public fun flipOut ()Landroidx/compose/animation/ExitTransition;
+	public fun getEnterAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getEnterTransition ()Landroidx/compose/animation/EnterTransition;
+	public fun getExitAnimationSpec ()Landroidx/compose/animation/core/FiniteAnimationSpec;
+	public fun getExitTransition ()Landroidx/compose/animation/ExitTransition;
+	public fun getPaddingAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun getScaleAnimationSpec ()Landroidx/compose/animation/core/AnimationSpec;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface class dev/teogor/nudge/Duration {
+	public abstract fun toMillis ()J
+}
+
+public final class dev/teogor/nudge/Duration$Custom : dev/teogor/nudge/Duration {
+	public static final field $stable I
+	public synthetic fun <init> (JLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-UwyO8pc ()J
+	public final fun copy-LRDsOJo (J)Ldev/teogor/nudge/Duration$Custom;
+	public static synthetic fun copy-LRDsOJo$default (Ldev/teogor/nudge/Duration$Custom;JILjava/lang/Object;)Ldev/teogor/nudge/Duration$Custom;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getDuration-UwyO8pc ()J
+	public fun hashCode ()I
+	public fun toMillis ()J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Duration$DefaultImpls {
+	public static fun toMillis (Ldev/teogor/nudge/Duration;)J
+}
+
+public final class dev/teogor/nudge/Duration$Long : dev/teogor/nudge/Duration {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Duration$Long;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toMillis ()J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Duration$Medium : dev/teogor/nudge/Duration {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Duration$Medium;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toMillis ()J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Duration$Persistent : dev/teogor/nudge/Duration {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Duration$Persistent;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toMillis ()J
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/Duration$Short : dev/teogor/nudge/Duration {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Duration$Short;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toMillis ()J
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface annotation class dev/teogor/nudge/ExperimentalNudgeApi : java/lang/annotation/Annotation {
+}
+
+public final class dev/teogor/nudge/Icons {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Icons;
+	public final fun getDefault ()Ldev/teogor/nudge/Icons$Filled;
+}
+
+public final class dev/teogor/nudge/Icons$Filled {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Icons$Filled;
+}
+
+public final class dev/teogor/nudge/Icons$Outlined {
+	public static final field $stable I
+	public static final field INSTANCE Ldev/teogor/nudge/Icons$Outlined;
+}
+
+public abstract interface annotation class dev/teogor/nudge/InternalNudgeApi : java/lang/annotation/Annotation {
+}
+
+public abstract interface class dev/teogor/nudge/Nudge {
+	public static final field Companion Ldev/teogor/nudge/Nudge$Companion;
+}
+
+public final class dev/teogor/nudge/Nudge$Companion {
+	public final fun custom-LRDsOJo (J)Ldev/teogor/nudge/Duration;
+	public final fun getBottomCenter ()Ldev/teogor/nudge/Placement;
+	public final fun getBottomEnd ()Ldev/teogor/nudge/Placement;
+	public final fun getBottomStart ()Ldev/teogor/nudge/Placement;
+	public final fun getBounce ()Ldev/teogor/nudge/Animation;
+	public final fun getCenterEnd ()Ldev/teogor/nudge/Placement;
+	public final fun getCenterStart ()Ldev/teogor/nudge/Placement;
+	public final fun getCurrent (Landroidx/compose/runtime/Composer;I)Ldev/teogor/nudge/NudgeState;
+	public final fun getFade ()Ldev/teogor/nudge/Animation;
+	public final fun getFlip ()Ldev/teogor/nudge/Animation;
+	public final fun getLong ()Ldev/teogor/nudge/Duration;
+	public final fun getMedium ()Ldev/teogor/nudge/Duration;
+	public final fun getPersistent ()Ldev/teogor/nudge/Duration;
+	public final fun getShort ()Ldev/teogor/nudge/Duration;
+	public final fun getSlide ()Ldev/teogor/nudge/Animation;
+	public final fun getTopCenter ()Ldev/teogor/nudge/Placement;
+	public final fun getTopEnd ()Ldev/teogor/nudge/Placement;
+	public final fun getTopStart ()Ldev/teogor/nudge/Placement;
+	public final fun getZoom ()Ldev/teogor/nudge/Animation;
+}
+
+public abstract interface annotation class dev/teogor/nudge/NudgeDsl : java/lang/annotation/Annotation {
+}
+
+public abstract interface class dev/teogor/nudge/NudgeModel {
+	public abstract fun getDuration ()Ldev/teogor/nudge/Duration;
+	public abstract fun getStyle ()Ldev/teogor/nudge/Style;
+}
+
+public final class dev/teogor/nudge/NudgeModel$Customizable : dev/teogor/nudge/NudgeModel {
+	public static final field $stable I
+	public fun <init> (Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;Lkotlin/jvm/functions/Function4;)V
+	public synthetic fun <init> (Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;Lkotlin/jvm/functions/Function4;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ldev/teogor/nudge/Duration;
+	public final fun component2 ()Ldev/teogor/nudge/Style;
+	public final fun component3 ()Lkotlin/jvm/functions/Function4;
+	public final fun copy (Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;Lkotlin/jvm/functions/Function4;)Ldev/teogor/nudge/NudgeModel$Customizable;
+	public static synthetic fun copy$default (Ldev/teogor/nudge/NudgeModel$Customizable;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;Lkotlin/jvm/functions/Function4;ILjava/lang/Object;)Ldev/teogor/nudge/NudgeModel$Customizable;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getContent ()Lkotlin/jvm/functions/Function4;
+	public fun getDuration ()Ldev/teogor/nudge/Duration;
+	public fun getStyle ()Ldev/teogor/nudge/Style;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/NudgeModel$Standard : dev/teogor/nudge/NudgeModel {
+	public static final field $stable I
+	public fun <init> (Ldev/teogor/nudge/Type;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)V
+	public synthetic fun <init> (Ldev/teogor/nudge/Type;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ldev/teogor/nudge/Type;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun component4 ()Ljava/util/List;
+	public final fun component5 ()Ldev/teogor/nudge/Duration;
+	public final fun component6 ()Ldev/teogor/nudge/Style;
+	public final fun copy (Ldev/teogor/nudge/Type;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)Ldev/teogor/nudge/NudgeModel$Standard;
+	public static synthetic fun copy$default (Ldev/teogor/nudge/NudgeModel$Standard;Ldev/teogor/nudge/Type;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILjava/lang/Object;)Ldev/teogor/nudge/NudgeModel$Standard;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getActions ()Ljava/util/List;
+	public final fun getDescription ()Ljava/lang/String;
+	public fun getDuration ()Ldev/teogor/nudge/Duration;
+	public fun getStyle ()Ldev/teogor/nudge/Style;
+	public final fun getTitle ()Ljava/lang/String;
+	public final fun getType ()Ldev/teogor/nudge/Type;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface class dev/teogor/nudge/NudgeState {
+	public static final field Companion Ldev/teogor/nudge/NudgeState$Companion;
+	public abstract fun RenderNudges (Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;I)V
+	public abstract fun display (Ldev/teogor/nudge/NudgeModel;)V
+	public abstract fun getAnimation ()Ldev/teogor/nudge/Animation;
+	public abstract fun getCoroutineScope ()Lkotlinx/coroutines/CoroutineScope;
+	public abstract fun getMaxStack ()I
+	public abstract fun getPlacement ()Ldev/teogor/nudge/Placement;
+}
+
+public final class dev/teogor/nudge/NudgeState$Companion {
+}
+
+public final class dev/teogor/nudge/NudgeStateKt {
+	public static final fun NudgeState (ILdev/teogor/nudge/Animation;Ldev/teogor/nudge/Placement;Lkotlinx/coroutines/CoroutineScope;)Ldev/teogor/nudge/NudgeState;
+	public static final fun ProvideNudgeState (Ldev/teogor/nudge/NudgeState;Lkotlin/jvm/functions/Function2;Landroidx/compose/runtime/Composer;I)V
+	public static final fun custom (Ldev/teogor/nudge/NudgeState;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;Lkotlin/jvm/functions/Function4;)V
+	public static synthetic fun custom$default (Ldev/teogor/nudge/NudgeState;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;Lkotlin/jvm/functions/Function4;ILjava/lang/Object;)V
+	public static final fun display (Ldev/teogor/nudge/NudgeState;Lkotlin/jvm/functions/Function1;)V
+	public static final fun error (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)V
+	public static synthetic fun error$default (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILjava/lang/Object;)V
+	public static final fun info (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)V
+	public static synthetic fun info$default (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILjava/lang/Object;)V
+	public static final fun loading (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)V
+	public static synthetic fun loading$default (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILjava/lang/Object;)V
+	public static final fun rememberNudgeState (ILdev/teogor/nudge/Animation;Ldev/teogor/nudge/Placement;Landroidx/compose/runtime/Composer;II)Ldev/teogor/nudge/NudgeState;
+	public static final fun requireValidState (Ldev/teogor/nudge/NudgeState;)V
+	public static final fun success (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)V
+	public static synthetic fun success$default (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILjava/lang/Object;)V
+	public static final fun warning (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;)V
+	public static synthetic fun warning$default (Ldev/teogor/nudge/NudgeState;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ldev/teogor/nudge/Duration;Ldev/teogor/nudge/Style;ILjava/lang/Object;)V
+}
+
+public final class dev/teogor/nudge/Placement : java/lang/Enum {
+	public static final field BottomCenter Ldev/teogor/nudge/Placement;
+	public static final field BottomEnd Ldev/teogor/nudge/Placement;
+	public static final field BottomStart Ldev/teogor/nudge/Placement;
+	public static final field CenterEnd Ldev/teogor/nudge/Placement;
+	public static final field CenterStart Ldev/teogor/nudge/Placement;
+	public static final field TopCenter Ldev/teogor/nudge/Placement;
+	public static final field TopEnd Ldev/teogor/nudge/Placement;
+	public static final field TopStart Ldev/teogor/nudge/Placement;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Ldev/teogor/nudge/Placement;
+	public static fun values ()[Ldev/teogor/nudge/Placement;
+}
+
+public final class dev/teogor/nudge/PlacementKt {
+	public static final fun rememberNudgePlacement (Ldev/teogor/nudge/Placement;Landroidx/compose/runtime/Composer;II)Landroidx/compose/ui/Alignment;
+}
+
+public final class dev/teogor/nudge/RemovalReason : java/lang/Enum {
+	public static final field AutoTimeout Ldev/teogor/nudge/RemovalReason;
+	public static final field UserAction Ldev/teogor/nudge/RemovalReason;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Ldev/teogor/nudge/RemovalReason;
+	public static fun values ()[Ldev/teogor/nudge/RemovalReason;
+}
+
+public final class dev/teogor/nudge/Style : java/lang/Enum {
+	public static final field Default Ldev/teogor/nudge/Style;
+	public static final field Inverse Ldev/teogor/nudge/Style;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Ldev/teogor/nudge/Style;
+	public static fun values ()[Ldev/teogor/nudge/Style;
+}
+
+public final class dev/teogor/nudge/Type : java/lang/Enum {
+	public static final field Error Ldev/teogor/nudge/Type;
+	public static final field Info Ldev/teogor/nudge/Type;
+	public static final field Loading Ldev/teogor/nudge/Type;
+	public static final field Success Ldev/teogor/nudge/Type;
+	public static final field Warning Ldev/teogor/nudge/Type;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Ldev/teogor/nudge/Type;
+	public static fun values ()[Ldev/teogor/nudge/Type;
+}
+
+public final class dev/teogor/nudge/coroutines/CompositionScopeCanceller : androidx/compose/runtime/RememberObserver {
+	public static final field $stable I
+	public fun <init> (Lkotlinx/coroutines/CoroutineScope;)V
+	public final fun getScope ()Lkotlinx/coroutines/CoroutineScope;
+	public fun onAbandoned ()V
+	public fun onForgotten ()V
+	public fun onRemembered ()V
+}
+
+public final class dev/teogor/nudge/coroutines/ScopeKt {
+	public static final fun createCompositionCoroutineScope (Lkotlin/coroutines/CoroutineContext;Lkotlin/coroutines/CoroutineContext;)Lkotlinx/coroutines/CoroutineScope;
+	public static final fun createCompositionCoroutineScope (Lkotlin/coroutines/CoroutineContext;Lkotlin/coroutines/CoroutineContext;Landroidx/compose/runtime/Composer;)Lkotlinx/coroutines/CoroutineScope;
+	public static final fun createScopeWithContext (Lkotlin/jvm/functions/Function0;Z)Lkotlinx/coroutines/CoroutineScope;
+	public static synthetic fun createScopeWithContext$default (Lkotlin/jvm/functions/Function0;ZILjava/lang/Object;)Lkotlinx/coroutines/CoroutineScope;
+	public static final fun rememberCoroutineScope (Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)Lkotlinx/coroutines/CoroutineScope;
+	public static final fun rememberCoroutineScope (Lkotlin/jvm/functions/Function0;ZLandroidx/compose/runtime/Composer;II)Lkotlinx/coroutines/CoroutineScope;
+}
+
+public final class dev/teogor/nudge/icons/filled/ErrorKt {
+	public static final fun getError (Ldev/teogor/nudge/Icons$Filled;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/filled/InfoKt {
+	public static final fun getInfo (Ldev/teogor/nudge/Icons$Filled;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/filled/SuccessKt {
+	public static final fun getSuccess (Ldev/teogor/nudge/Icons$Filled;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/filled/WarningKt {
+	public static final fun getWarning (Ldev/teogor/nudge/Icons$Filled;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/outlined/ErrorKt {
+	public static final fun getError (Ldev/teogor/nudge/Icons$Outlined;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/outlined/InfoKt {
+	public static final fun getInfo (Ldev/teogor/nudge/Icons$Outlined;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/outlined/SuccessKt {
+	public static final fun getSuccess (Ldev/teogor/nudge/Icons$Outlined;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/icons/outlined/WarningKt {
+	public static final fun getWarning (Ldev/teogor/nudge/Icons$Outlined;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class dev/teogor/nudge/setup/NudgeBuilder {
+	public static final field $stable I
+	public final fun button (Ljava/lang/String;)V
+	public final fun button (Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V
+	public final fun content (Lkotlin/jvm/functions/Function4;)V
+	public final fun duration (Ldev/teogor/nudge/Duration;)V
+	public final fun error (Lkotlin/jvm/functions/Function1;)V
+	public final fun getContent ()Lkotlin/jvm/functions/Function4;
+	public final fun info (Lkotlin/jvm/functions/Function1;)V
+	public final fun loading (Lkotlin/jvm/functions/Function1;)V
+	public final fun style (Ldev/teogor/nudge/Style;)V
+	public final fun success (Lkotlin/jvm/functions/Function1;)V
+	public final fun warning (Lkotlin/jvm/functions/Function1;)V
+}
+
+public final class dev/teogor/nudge/setup/NudgeButton {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V
+	public synthetic fun <init> (Ljava/lang/String;Lkotlin/jvm/functions/Function0;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy (Ljava/lang/String;Lkotlin/jvm/functions/Function0;)Ldev/teogor/nudge/setup/NudgeButton;
+	public static synthetic fun copy$default (Ldev/teogor/nudge/setup/NudgeButton;Ljava/lang/String;Lkotlin/jvm/functions/Function0;ILjava/lang/Object;)Ldev/teogor/nudge/setup/NudgeButton;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/setup/NudgeLabeling {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;)Ldev/teogor/nudge/setup/NudgeLabeling;
+	public static synthetic fun copy$default (Ldev/teogor/nudge/setup/NudgeLabeling;Ljava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Ldev/teogor/nudge/setup/NudgeLabeling;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public final fun setDescription (Ljava/lang/String;)V
+	public final fun setDescription (Lkotlin/jvm/functions/Function0;)V
+	public final fun setTitle (Ljava/lang/String;)V
+	public final fun setTitle (Lkotlin/jvm/functions/Function0;)V
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class dev/teogor/nudge/ui/ComposableSingletons$SwipeableDismissContainerKt {
+	public static final field INSTANCE Ldev/teogor/nudge/ui/ComposableSingletons$SwipeableDismissContainerKt;
+	public static field lambda-1 Lkotlin/jvm/functions/Function3;
+	public fun <init> ()V
+	public final fun getLambda-1$core_release ()Lkotlin/jvm/functions/Function3;
+}
+
+public final class dev/teogor/nudge/ui/NudgeCardKt {
+	public static final fun NudgeCard (Ldev/teogor/nudge/Style;FLkotlin/jvm/functions/Function2;Landroidx/compose/ui/Modifier;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class dev/teogor/nudge/ui/NudgeContainerKt {
+	public static final fun NudgeContainer (Landroidx/compose/ui/Modifier;Ldev/teogor/nudge/NudgeState;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class dev/teogor/nudge/ui/SwipeableDismissContainerKt {
+	public static final fun SwipeableDismissContainer (Ljava/lang/Object;Landroidx/compose/ui/Modifier;Ldev/teogor/nudge/Animation;Lkotlin/jvm/functions/Function1;IZLjava/util/Set;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
